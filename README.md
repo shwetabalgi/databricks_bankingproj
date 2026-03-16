@@ -26,7 +26,7 @@ The project simulates a **retail banking system** with multiple datasets.
 
 ---
 
-# 3. Data Quality Issues Introduced
+# 3. Data Quality Issues
 
 The dataset intentionally includes several **real-world data quality problems**.
 
@@ -85,13 +85,14 @@ Example rules implemented:
 | amount > 0           | Valid transaction values |
 | loan_status default  | Missing values replaced  |
 
----
 
 ## Gold Layer
 
 Purpose: Build **analytics-ready business datasets**.
 
+
 ### Gold Tables
+---
 
 **Branch Performance**
 

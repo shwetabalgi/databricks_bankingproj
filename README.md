@@ -93,7 +93,25 @@ Purpose: Build **analytics-ready business datasets**.
 
 ### Gold Tables
 
-**Customer Financial Summary**
+**Branch Performance**
+
+Metrics:
+
+* total transactions
+* total transaction value
+
+---
+
+**Account Summary**
+
+Metrics:
+
+* number of accounts per account type
+* total balance per account type
+
+---
+
+**Customer Financial Summary(Profile)**
 
 Metrics:
 
@@ -102,12 +120,12 @@ Metrics:
 
 ---
 
-**Branch Performance**
+**Customer Transaction Summary**
 
 Metrics:
 
-* total transactions
-* total transaction value
+* number of transactions per customer
+* total spend per customer
 
 ---
 
@@ -136,7 +154,7 @@ Metrics:
 # 7. Project Folder Structure
 
 ```
-banking-spark-declarative-pipeline
+databricks_bankingproj
 
 data/
    branches.csv
@@ -162,9 +180,18 @@ The pipeline enables the following analysis:
 Example questions:
 
 * Which branches generate the highest transaction value?
+  
+  ![Top Branches by transaction value](screenshots/Branch_transaction_data.png)
+  ![Top Branches by transaction value](screenshots/Branch_transaction_chart.png)
+  
 * Which customers have the highest account balances?
-* Distribution of loan types issued by the bank.
-* Average transaction value by account.
 
+![Top customers by balance](screenshots/top_customer_balance.png)
+![Top customers by balance](screenshots/top_customer_balance_chart.png)
+
+* Distribution of customers by account balance and load amount
+![Customer Distribution by balance and load amount](screenshots/Scatterplot_query.png)
+![Customer Distribution by balance and load amount](screenshots/Scatterplot_data.png)
+![Customer Distribution by balance and load amount](screenshots/Scatterplot.png)
 ---
 

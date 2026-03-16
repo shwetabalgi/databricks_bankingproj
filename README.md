@@ -1,14 +1,10 @@
-## 1. Project Overview
+# 1. Project Overview
 
 This project implements an data engineering pipeline for a retail banking domain using **Spark Declarative Pipelines in Databricks**.
 
 The pipeline ingests raw banking datasets, applies data quality checks, cleans and transforms the data and produces analytical datasets that can be consumed by BI tools such as Microsoft Power BI.
 
 The implementation follows the **Medallion Architecture**:
-
-* **Bronze layer** – raw data files
-* **Silver layer** – cleaned and validated data
-* **Gold layer** – analytics-ready business tables
 
 The project demonstrates **data ingestion, transformation, validation, and aggregation across multiple relational datasets**.
 
@@ -49,7 +45,9 @@ These issues are handled in the **Silver layer** of the pipeline.
 # 4. Architecture
 
 Pipeline architecture follows the **Medallion data architecture** pattern.
-
+* **Bronze layer** – raw data files
+* **Silver layer** – cleaned and validated data
+* **Gold layer** – analytics-ready business tables
 
 # 5. Pipeline Layers
 
@@ -58,13 +56,13 @@ Pipeline architecture follows the **Medallion data architecture** pattern.
 Purpose: Raw data ingestion.
 
 Tables created:
-
+```
 bronze_customers
 bronze_accounts
 bronze_transactions
 bronze_loans
 bronze_branches
-
+```
 ---
 
 ## Silver Layer

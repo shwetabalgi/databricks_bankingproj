@@ -180,7 +180,8 @@ The pipeline enables the following analysis:
 Example questions:
 
 * Which branches generate the highest transaction value?
-  
+| Image with Border |
+| :---: |
   ![Top Branches by transaction value](screenshots/Branch_transaction_data.png)
   ![Top Branches by transaction value](screenshots/Branch_transaction_chart.png)
   

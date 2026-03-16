@@ -181,19 +181,22 @@ Example questions:
 
 * Which branches generate the highest transaction value?
 
-| :---: |
-| ![Top Branches by transaction value](screenshots/Branch_transaction_data.png) |
+  ![Top Branches by transaction value](screenshots/Branch_transaction_data.png)
  
   ![Top Branches by transaction value](screenshots/Branch_transaction_chart.png)
   
 * Which customers have the highest account balances?
 
 ![Top customers by balance](screenshots/top_customer_balance.png)
+
 ![Top customers by balance](screenshots/top_customer_balance_chart.png)
 
 * Distribution of customers by account balance and load amount
 ![Customer Distribution by balance and load amount](screenshots/Scatterplot_query.png)
+
 ![Customer Distribution by balance and load amount](screenshots/Scatterplot_data.png)
+
 ![Customer Distribution by balance and load amount](screenshots/Scatterplot.png)
+
 ---
 
